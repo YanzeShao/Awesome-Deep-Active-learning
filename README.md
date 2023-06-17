@@ -11,8 +11,13 @@ Query strategies include:
 * uncertainty-based approach
 * diversity-based approach
 * expected model change
+* Diversity-based and density-based query strategies
+* Uncertainty-based query strategy
 * hybrid query strategies: balancing uncertainty & diversity
-Focusing solely on uncertainty may result in bias during sampling as the selected samples might not be representative of the entire unlabeled dataset; while focusing only on diversity might lead to the collection of many inefficient samples, thereby increasing the overall annotation cost.
+
+Focusing solely on uncertainty may result in bias during sampling as the selected samples might not be representative of the entire unlabeled dataset; while focusing only on diversity might lead to the collection of many inefficient samples, thereby increasing the overall annotation cost. 
+<br>  
+<br>
 Current active learning works are concentrated in low-dimensional data, and there are issues when applied to high-dimensional data such as text and images. Pure active learning has several problems:
 * Using Active learning along is not as effective as other algorithms, such as semi-supervised learning
 * Problems arising when integrating with other components
@@ -40,13 +45,14 @@ Deep active learning is widely applied in various fields because it can efficien
 ## Papers
 | Year     | Title     | Venue | Paper | Code |
 | :-------: | ------- | :-------: | :-------: | :-------: |
-|2016| **Deep Active Learning for Dialogue Generation**   |arXiv|[Link](https://arxiv.org/abs/1612.03929)|-|
-|2017| **DEEP ACTIVE LEARNING FOR NAMED ENTITY RECOGNITION**   |arXiv|[Link](https://arxiv.org/pdf/1707.05928.pdf)|-|
-|2017| **Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation**   |arXiv|[Link](https://arxiv.org/abs/2302.11075)|-|
+|2017| **Deep Active Learning for Dialogue Generation**   |arXiv|[Link](https://arxiv.org/abs/1612.03929)|-|
+|2017| **Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation**   |arXiv|[Link](https://arxiv.org/abs/1706.04737)|-|
+|2018| **Deep Active Learning for Named Entity Recognition**   |arXiv|[Link](https://arxiv.org/abs/1707.05928)|-|
+|2019| **Deep Active Learning for Axon-Myelin Segmentation on Histology Data** |arXiv|[Link](https://arxiv.org/abs/1907.05143)|[Code](https://github.com/neuropoly/deep-active-learning)|
 |2020| **Deep active learning for object detection**   |INS|[Link](https://www.sciencedirect.com/science/article/abs/pii/S0020025521008197)|-|
-|2020| **Deep active learning for object detection**   |BMVC|[[Link](http://www.bmva.org/bmvc/2018/contents/papers/0287.pdf)|-|
+|2020| **Deep active learning for object detection**   |BMVC|[Link](http://www.bmva.org/bmvc/2018/contents/papers/0287.pdf)|-|
 |2022| **Towards Robust Deep Active Learning for Scientific Computing**   |arXiv|[Link](https://arxiv.org/abs/2201.12632)|-|
-|2022| **Active Learning with Neural Networks: Insights from Nonparametric Statistics**   |arXiv|[Link](https://arxiv.org/abs/2210.08367)|-|
+|2022| **Active Learning with Neural Networks: Insights from Nonparametric Statistics**   |NeurIPS|[Link](https://openreview.net/pdf?id=LRMmgkcoCnW)|-|
 
 
 ### CVPR
@@ -59,7 +65,6 @@ Deep active learning is widely applied in various fields because it can efficien
 |2021| **Multiple Instance Active Learning for Object Detection**   |CVPR|[Link](https://openaccess.thecvf.com/content/CVPR2021/papers/Yuan_Multiple_Instance_Active_Learning_for_Object_Detection_CVPR_2021_paper.pdf)|-|
 |2021| **Task-Aware Variational Adversarial Active Learning**   |CVPR|[Link](https://arxiv.org/abs/2002.04709)|-|
 |2021| **Revisiting Superpixels for Active Learning in Semantic Segmentation With Realistic Annotation Costs**   |CVPR|[Link](https://openaccess.thecvf.com/content/CVPR2021/papers/Cai_Revisiting_Superpixels_for_Active_Learning_in_Semantic_Segmentation_With_Realistic_CVPR_2021_paper.pdf)|-|
-|2022| **Active Learning with Neural Networks: Insights from Nonparametric Statistics**   |NeurIPS|[Link](https://openreview.net/pdf?id=LRMmgkcoCnW)|-|
 
 ### ICCV
 | Year     | Title     | Venue | Paper | Code |
@@ -72,3 +77,14 @@ Deep active learning is widely applied in various fields because it can efficien
 |2021| **ReDAL: Region-based and Diversity-aware Active Learning for Point Cloud Semantic Segmentation**   |ICCV|[Link](https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_ReDAL_Region-Based_and_Diversity-Aware_Active_Learning_for_Point_Cloud_Semantic_ICCV_2021_paper.pdf)|-|
 |2021| **Multi-Anchor Active Domain Adaptation for Semantic Segmentation**   |ICCV|[Link](https://openaccess.thecvf.com/content/ICCV2021/papers/Ning_Multi-Anchor_Active_Domain_Adaptation_for_Semantic_Segmentation_ICCV_2021_paper.pdf)|-|
 
+### ICLR
+| Year     | Title     | Venue | Paper | Code |
+| :-------: | ------- | :-------: | :-------: | :-------: |
+|2023| **Active Learning in Bayesian Neural Networks with Balanced Entropy Learning Principle**   |ICLR|[Link](https://arxiv.org/abs/2105.14559)|[Code](https://github.com/jaeohwoo/balancedentropy)|
+|2023| **A Simple Yet Powerful Deep Active Learning With Snapshots Ensembles**   |ICLR|[Link](https://openreview.net/pdf?id=IVESH65r0Ar)|-|
+
+### ICML
+| Year     | Title     | Venue | Paper | Code |
+| :-------: | ------- | :-------: | :-------: | :-------: |
+|2022| **Active Learning on a Budget: Opposite Strategies Suit High and Low Budgets**   |ICML|[Link](https://arxiv.org/abs/2202.02794)|[Code](https://github.com/avihu111/typiclust)|
+|2022| **Constants Matter: The Performance Gains of Active Learning**   |ICML|[Link](https://proceedings.mlr.press/v162/mussmann22a/mussmann22a.pdf)|-|
