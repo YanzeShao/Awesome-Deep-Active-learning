@@ -30,12 +30,43 @@ Deep active learning is widely applied in various fields because it can efficien
 | Year     | Title     | Venue | Paper | Code |
 | :-------: | ------- | :-------: | :-------: | :-------: |
 | 2020 | **A Survey of Deep Active Learning** | arXiv |[Link](https://arxiv.org/abs/2009.00236) |-|
-| 2023 | **Deep Active Learning in the Presence of Label Noise: A Survey**  | arXiv |[Link](https://arxiv.org/abs/2302.11075) |-|
+| 2021 | **A survey on active learning and human-in-the-loop deep learning for medical image analysis**  | MedIA |[Link](https://www.sciencedirect.com/science/article/abs/pii/S1361841521001080)|-|
+| 2022 | **Deep Bayesian Active Learning, A Brief Survey on Recent Advances**  | arXiv |[Link](https://arxiv.org/abs/2012.08044)|-|
+| 2022 | **Deep Active Learning for Computer Vision: Past and Future**  | arXiv |[Link](https://arxiv.org/abs/2211.14819)|-|
 | 2022 | **A Comparative Survey of Deep Active Learning**  | arXiv |[Link](https://arxiv.org/abs/2203.13450) |[Code](https://github.com/SineZHAN/deepALplus)|
-  
+| 2023 | **Deep Active Learning in the Presence of Label Noise: A Survey**  | arXiv |[Link](https://arxiv.org/abs/2302.11075) |-|
+
+
 ## Papers
 | Year     | Title     | Venue | Paper | Code |
 | :-------: | ------- | :-------: | :-------: | :-------: |
-|2022| **Towards Robust Deep Active Learning for Scientific Computing**   |arXiv|[Link](https://arxiv.org/abs/2201.12632)https://arxiv.org/abs/2201.12632|-|
-|2017| **Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation**   |arXiv|[Link](https://arxiv.org/abs/2302.11075)https://arxiv.org/abs/2302.11075|-|
-|2020| **Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation**   |INS|[Link](https://www.sciencedirect.com/science/article/abs/pii/S0020025521008197)https://www.sciencedirect.com/science/article/abs/pii/S0020025521008197|-|
+|2016| **Deep Active Learning for Dialogue Generation**   |arXiv|[Link](https://arxiv.org/abs/1612.03929)|-|
+|2017| **DEEP ACTIVE LEARNING FOR NAMED ENTITY RECOGNITION**   |arXiv|[Link](https://arxiv.org/pdf/1707.05928.pdf)|-|
+|2017| **Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation**   |arXiv|[Link](https://arxiv.org/abs/2302.11075)|-|
+|2020| **Deep active learning for object detection**   |INS|[Link](https://www.sciencedirect.com/science/article/abs/pii/S0020025521008197)|-|
+|2020| **Deep active learning for object detection**   |BMVC|[[Link](http://www.bmva.org/bmvc/2018/contents/papers/0287.pdf)|-|
+|2022| **Towards Robust Deep Active Learning for Scientific Computing**   |arXiv|[Link](https://arxiv.org/abs/2201.12632)|-|
+### CVPR
+| Year     | Title     | Venue | Paper | Code |
+| :-------: | ------- | :-------: | :-------: | :-------: |
+|2020| **Deep Active Learning for Biased Datasets via Fisher Kernel Self-Supervision**   |CVPR|[Link](https://openaccess.thecvf.com/content_CVPR_2020/papers/Gudovskiy_Deep_Active_Learning_for_Biased_Datasets_via_Fisher_Kernel_Self-Supervision_CVPR_2020_paper.pdf)|[Code](https://github.com/gudovskiy/al-fk-self-supervision)|
+|2021| **Sequential Graph Convolutional Network for Active Learning**   |CVPR|[Link](https://openaccess.thecvf.com/content/CVPR2021/papers/Caramalau_Sequential_Graph_Convolutional_Network_for_Active_Learning_CVPR_2021_paper.pdf)|-|
+|2021| **VaB-AL: Incorporating Class Imbalance and Difficulty With Variational Bayes for Active Learning**   |CVPR|[Link](https://openaccess.thecvf.com/content/CVPR2021/papers/Choi_VaB-AL_Incorporating_Class_Imbalance_and_Difficulty_With_Variational_Bayes_for_CVPR_2021_paper.pdf)|-|
+|2021| **Transferable Query Selection for Active Domain Adaptation**   |CVPR|[Link](https://openaccess.thecvf.com/content/CVPR2021/papers/Fu_Transferable_Query_Selection_for_Active_Domain_Adaptation_CVPR_2021_paper.pdf)|-|
+|2021| **Multiple Instance Active Learning for Object Detection**   |CVPR|[Link](https://openaccess.thecvf.com/content/CVPR2021/papers/Yuan_Multiple_Instance_Active_Learning_for_Object_Detection_CVPR_2021_paper.pdf)|-|
+|2021| **Task-Aware Variational Adversarial Active Learning**   |CVPR|[Link](https://arxiv.org/abs/2002.04709)|-|
+|2021| **Revisiting Superpixels for Active Learning in Semantic Segmentation With Realistic Annotation Costs**   |CVPR|[Link](https://openaccess.thecvf.com/content/CVPR2021/papers/Cai_Revisiting_Superpixels_for_Active_Learning_in_Semantic_Segmentation_With_Realistic_CVPR_2021_paper.pdf)|-|
+|2022| **Active Learning with Neural Networks: Insights from Nonparametric Statistics**   |NeurIPS|[Link](https://openreview.net/pdf?id=LRMmgkcoCnW)|-|
+
+### ICCV
+| Year     | Title     | Venue | Paper | Code |
+| :-------: | ------- | :-------: | :-------: | :-------: |
+|2017| **Active Decision Boundary Annotation with Deep Generative Models**   |ICCV|[Link](https://arxiv.org/abs/1703.06971)|[Code](https://github.com/MiriamHu/ActiveBoundary)|
+|2021| **S3VAADA: Submodular Subset Selection for Virtual Adversarial Active Domain Adaptation**   |ICCV|[Link](https://openaccess.thecvf.com/content/ICCV2021/papers/Rangwani_S3VAADA_Submodular_Subset_Selection_for_Virtual_Adversarial_Active_Domain_Adaptation_ICCV_2021_paper.pdf)|[Code](https://github.com/val-iisc/s3vaada)|
+|2021| **Active Universal Domain Adaptation**   |ICCV|[Link](https://openaccess.thecvf.com/content/ICCV2021/papers/Ma_Active_Universal_Domain_Adaptation_ICCV_2021_paper.pdf)|-|
+|2021| **Influence Selection for Active Learning**   |ICCV|[Link](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Influence_Selection_for_Active_Learning_ICCV_2021_paper.pdf)|-|
+|2021| **Active Learning for Deep Object Detection via Probabilistic Modeling**   |ICCV|[Link](https://openaccess.thecvf.com/content/ICCV2021/papers/Choi_Active_Learning_for_Deep_Object_Detection_via_Probabilistic_Modeling_ICCV_2021_paper.pdf)|[Code](https://github.com/NVlabs/AL-MDN)|
+|2021| **ReDAL: Region-based and Diversity-aware Active Learning for Point Cloud Semantic Segmentation**   |ICCV|[Link](https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_ReDAL_Region-Based_and_Diversity-Aware_Active_Learning_for_Point_Cloud_Semantic_ICCV_2021_paper.pdf)|-|
+|2017| ** **   |ICCV|Link|-|
+|2017| ** **   |ICCV|Link|-|
+|2017| ** **   |ICCV|Link|-|
