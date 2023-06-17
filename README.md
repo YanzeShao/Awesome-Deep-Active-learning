@@ -46,6 +46,9 @@ Deep active learning is widely applied in various fields because it can efficien
 |2020| **Deep active learning for object detection**   |INS|[Link](https://www.sciencedirect.com/science/article/abs/pii/S0020025521008197)|-|
 |2020| **Deep active learning for object detection**   |BMVC|[[Link](http://www.bmva.org/bmvc/2018/contents/papers/0287.pdf)|-|
 |2022| **Towards Robust Deep Active Learning for Scientific Computing**   |arXiv|[Link](https://arxiv.org/abs/2201.12632)|-|
+|2022| **Active Learning with Neural Networks: Insights from Nonparametric Statistics**   |arXiv|[Link](https://arxiv.org/abs/2210.08367)|-|
+
+
 ### CVPR
 | Year     | Title     | Venue | Paper | Code |
 | :-------: | ------- | :-------: | :-------: | :-------: |
@@ -67,6 +70,5 @@ Deep active learning is widely applied in various fields because it can efficien
 |2021| **Influence Selection for Active Learning**   |ICCV|[Link](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Influence_Selection_for_Active_Learning_ICCV_2021_paper.pdf)|-|
 |2021| **Active Learning for Deep Object Detection via Probabilistic Modeling**   |ICCV|[Link](https://openaccess.thecvf.com/content/ICCV2021/papers/Choi_Active_Learning_for_Deep_Object_Detection_via_Probabilistic_Modeling_ICCV_2021_paper.pdf)|[Code](https://github.com/NVlabs/AL-MDN)|
 |2021| **ReDAL: Region-based and Diversity-aware Active Learning for Point Cloud Semantic Segmentation**   |ICCV|[Link](https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_ReDAL_Region-Based_and_Diversity-Aware_Active_Learning_for_Point_Cloud_Semantic_ICCV_2021_paper.pdf)|-|
-|2017| ** **   |ICCV|Link|-|
-|2017| ** **   |ICCV|Link|-|
-|2017| ** **   |ICCV|Link|-|
+|2021| **Multi-Anchor Active Domain Adaptation for Semantic Segmentation**   |ICCV|[Link](https://openaccess.thecvf.com/content/ICCV2021/papers/Ning_Multi-Anchor_Active_Domain_Adaptation_for_Semantic_Segmentation_ICCV_2021_paper.pdf)|-|
+
